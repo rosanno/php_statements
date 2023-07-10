@@ -35,15 +35,15 @@ $quantity2 = 100;
 $price1 = 35;
 $price2 = 30;
 
-$deal1Cost = $quantity1 * $price1;
-$deal2Cost = $quantity2 * $price2;
+$deal1Cost = $price1 / $quantity1;
+$deal2Cost = $price2 / $quantity2;
 
 if ($deal1Cost < $deal2Cost) {
-    echo "Deal 1 is the best deal. Cost: $deal1Cost<br /><br/>";
+    echo "Deal first is the best deal.<br /><br/>";
 } elseif ($deal2Cost < $deal1Cost) {
-    echo "Deal 2 is the best deal. Cost: $deal2Cost<br/><br/>";
+    echo "Deal second is the best deal.<br/><br/>";
 } else {
-    echo "Both deals have the same cost. Cost: $deal1Cost<br/><br/>";
+    echo "Both deals have the same cost.<br/><br/>";
 }
 
 /**
