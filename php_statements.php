@@ -7,6 +7,7 @@ $word1 = 'class';
 $word2 = 'kodego';
 $word3 = 'top';
 
+echo "1.)<br/>";
 if (strlen($word1) > 5) {
     echo "$word1 is more than 5 characters.<br />";
 } else {
@@ -30,6 +31,7 @@ if (strlen($word3) > 5) {
 /**
  * question 2
  */
+echo "2.)<br/>";
 $quantity1 = 70;
 $quantity2 = 100;
 $price1 = 35;
@@ -50,7 +52,7 @@ if ($deal1Cost < $deal2Cost) {
  * question 3
  */
 
-
+echo "3.)<br/>";
 $monthName = 'March';
 
 switch ($monthName) {
@@ -81,7 +83,7 @@ echo "Number of days in $monthName: $days<br/><br/>";
 /**
  * question 4
  */
-
+echo "4.)<br/>";
 $studentsJson = '[{"name" : "John Garg","age"  : "15","school" : "Ahlcon Public school"},
                 {"name" : "Smith Soy","age"  : "16","school" : "St. Marie school"},
                 {"name" : "Charle Rena","age"  : "16","school" : "St. Columba school"}]';
@@ -99,7 +101,7 @@ foreach ($students as $student) {
 /**
  * question 5
  */
-
+echo "5.)<br/>";
 $rows = 10;
 
 echo "<table>";
